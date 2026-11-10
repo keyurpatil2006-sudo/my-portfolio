@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Keyur — full stack developer building focused digital products." />
+  <title>Keyur — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-signal" aria-hidden="true"><span></span></div>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Keyur home">KEYUR<span class="dot">.</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">MENU <span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#about">01 / About</a>
+      <a href="#skills">02 / Tools</a>
+      <a href="#projects">03 / Projects</a>
+      <a href="#contact" class="nav-cta">04 / Contact Me<span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art"><img src="assets/hero.png" alt="A lone figure crossing a rope bridge above fog" /></div>
+      
+      <div class="walker-track" aria-hidden="true"><div class="walker"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="route-progress" aria-label="The crossing progress: idea, design, code, ship">
+        <div class="route-heading"><span>THE CROSSING</span><small>01 / 04</small></div>
+        <div class="route-line"><span class="route-node is-complete"></span><span class="route-node is-complete"></span><span class="route-node is-current"></span><span class="route-node"></span></div>
+        <div class="route-labels"><span>IDEA</span><span>DESIGN</span><span class="is-current-label">CODE</span><span>SHIP</span></div>
+        <p class="route-current"><span></span> CURRENT / KEYUR</p>
+      </div>
+      <div class="hero-copy">
+        <p class="hero-intro">Where creativity meets code</p>
+        <h1 id="hero-title">KEYUR<span class="accent">.</span></h1>
+        <p class="eyebrow hero-eyebrow"><span>001</span> Full stack developer · India</p>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="about">
+      <div class="section-index">002 / About</div>
+      <div class="intro-content">
+        <p class="display-text">A full stack developer who likes the space between <span class="accent-text">ideas</span> and the internet.</p>
+        <p class="body-copy">Hello ! I'm Keyur, an aspiring Full Stack Developer passionate about building innovative web applications, exploring new technologies, and transforming ideas into impactful digital experiences.</p>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-index">003 / Toolkit</div>
+      <div class="skills-grid">
+        <div><span class="skill-number">01</span><h2>Build</h2><p>HTML · CSS · JavaScript<br />React · Responsive systems</p></div>
+        <div><span class="skill-number">02</span><h2>Think</h2><p>Product flows · UX<br />Prototyping · Accessibility</p></div>
+        <div><span class="skill-number">03</span><h2>Connect</h2><p>Node.js · Express · REST APIs<br />Python · Java · MySQL<br />MongoDB · GitHub · Postman<br />Docker · VS Code · Deployment</p></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-index">004 / My Projects</div>
+      <div class="projects-layout">
+        <div class="project-list" role="list">
+          <button class="project-row is-active" data-project="launchpad" role="listitem"><span>01</span><strong>LaunchPad</strong><em>↗</em></button>
+          <button class="project-row" data-project="ebusinessbazaar" role="listitem"><span>02</span><strong>EbusinessBazaar</strong><em>↗</em></button>
+          <button class="project-row" data-project="wakeupskills" role="listitem"><span>03</span><strong>WakeupSkills</strong><em>↗</em></button>
+        </div>
+        <article class="project-preview" aria-live="polite">
+          <div class="project-image-wrap"><img id="project-image" src="assets/launchpad.png" alt="LaunchPad project artwork" /></div>
+          <div class="project-meta"><p id="project-description">A demo job and internship platform where candidates find their next move and employers can open the door.</p><div><span id="project-type">WEB PLATFORM</span><span id="project-year">2025</span></div></div>
+          <a id="project-link" class="text-link" href="https://launchpad-job-portal-1.onrender.com/" target="_blank" rel="noreferrer">Visit live project ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="making-section"><div class="section-index">005 / In progress</div><div><p class="display-text">Currently making interfaces that feel <span class="accent-text">clearer</span> than the brief.</p><p class="mono">TARGET / 2026</p></div></section>
+
+    <section class="studio-section" id="studio"><div class="studio-panel"><div class="section-index">006 / The studio</div><div class="credits"><div class="credit-row"><span>Keyur</span><small>Developer / Designer</small></div><div class="credit-row"><span>HTML & CSS</span><small>Structure & rhythm</small></div><div class="credit-row"><span>JavaScript</span><small>Interaction layer</small></div><div class="credit-row"><span>Node.js</span><small>Runtime & services</small></div><div class="credit-row"><span>Express</span><small>Backend framework</small></div><div class="credit-row"><span>Python</span><small>Systems & logic</small></div><div class="credit-row"><span>Java</span><small>Application logic</small></div><div class="credit-row"><span>MySQL</span><small>Relational data</small></div><div class="credit-row"><span>MongoDB</span><small>Document data</small></div><div class="credit-row"><span>GitHub</span><small>Collaboration</small></div><div class="credit-row"><span>Postman</span><small>API testing</small></div><div class="credit-row"><span>Docker</span><small>Containers</small></div><div class="credit-row"><span>Git</span><small>Version control</small></div><div class="credit-row"><span>VS Code</span><small>Development environment</small></div></div></div></section>
+
+    
+<section class="section principles-section" id="principles">
+    <div class="principles-panel">
+
+        <div class="principles-heading">
+            <span class="section-index">007 / HOW I WORK</span>
+            <h2>My approach to<br><span>building things.</span></h2>
+            <p>
+                Good development is more than writing code.
+                It's about asking better questions, solving
+                real problems and creating things that last.
+            </p>
+            <span class="principles-note">MY WORKING PHILOSOPHY / 2026</span>
+        </div>
+
+        <div class="principles-list">
+
+            <div class="principle-item">
+                <span class="principle-number">01</span>
+                <div>
+                    <h3>Stay Curious</h3>
+                    <p>Explore new technologies, question assumptions
+                    and never stop learning.</p>
+                </div>
+                <span class="principle-symbol">↗</span>
+            </div>
+
+            <div class="principle-item">
+                <span class="principle-number">02</span>
+                <div>
+                    <h3>Think Before Building</h3>
+                    <p>Understand the problem first. Good solutions
+                    start with clear thinking.</p>
+                </div>
+                <span class="principle-symbol">↗</span>
+            </div>
+
+            <div class="principle-item">
+                <span class="principle-number">03</span>
+                <div>
+                    <h3>Keep It Simple</h3>
+                    <p>Build clean interfaces and maintainable code
+                    without unnecessary complexity.</p>
+                </div>
+                <span class="principle-symbol">↗</span>
+            </div>
+
+            <div class="principle-item">
+                <span class="principle-number">04</span>
+                <div>
+                    <h3>Obsess Over Details</h3>
+                    <p>From responsive layouts to tiny interactions,
+                    every detail contributes to the experience.</p>
+                </div>
+                <span class="principle-symbol">↗</span>
+            </div>
+
+            <div class="principle-item">
+                <span class="principle-number">05</span>
+                <div>
+                    <h3>Learn By Doing</h3>
+                    <p>Experiment, build real projects, make mistakes
+                    and improve through experience.</p>
+                </div>
+                <span class="principle-symbol">↗</span>
+            </div>
+
+            <div class="principle-item">
+                <span class="principle-number">06</span>
+                <div>
+                    <h3>Build. Test. Improve.</h3>
+                    <p>Don't just make things work. Refine them,
+                    test them and make them better.</p>
+                </div>
+                <span class="principle-symbol">↗</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <section class="quote-section"><blockquote>“Life is not a race. It's a journey worth experiencing.”</blockquote><p class="mono">— A working principle</p></section>
+
+    <section class="contact-section" id="contact"><div class="contact-panel"><div class="section-index">008 / Work with me</div><div><p class="display-text">Have a sharp idea? Let’s give it a good home.</p><p class="contact-note">Available for select freelance projects, product builds, and thoughtful collaborations.</p><a class="dark-button" href="mailto:keyurpatil2006@gmail.com">Start a conversation ↗</a></div><p class="mono contact-location">BASED IN INDIA · WORKING WORLDWIDE</p></div></section>
+
+    <section class="form-section"><div class="section-index">009 / Say hello</div><form id="contact-form" novalidate><div class="form-grid"><label>Name<input type="text" name="name" autocomplete="name" placeholder="Your name" required /><small class="error-message"></small></label><label>Email<input type="email" name="email" autocomplete="email" placeholder="you@example.com" required /><small class="error-message"></small></label></div><label>Message<textarea name="message" rows="5" placeholder="Tell me a little about the project" required></textarea><small class="error-message"></small></label><button class="submit-button" type="submit">Send message <span>↗</span></button><p class="form-status" role="status"></p></form></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="wordmark" href="#top">KEYUR<span class="dot">.</span></a><div class="footer-links"><a href="mailto:keyurpatil2006@gmail.com">Email</a><a href="https://github.com/keyurpatil2006-sudo" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/keyur-patil-a1476b341?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn</a></div></div><div class="footer-word">KEYUR<span>.</span></div><div class="footer-bottom"><span>© 2026 Keyur</span><span>Made with intent</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
